@@ -1,8 +1,6 @@
 #!/bin/python3
 import os
 
-A = True 
-
 
 def use():
 	print("Volume = 1")
@@ -98,7 +96,7 @@ def download():
 def main_menu():			
 	print("Use = 1")
 	print("Download = 2")
-	while A == True:
+	while True:
 		mode = int(input(": "))
 		if mode == 1:
 			use()
